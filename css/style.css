@@ -275,11 +275,8 @@ section.projects .btn3:hover{
 .resume{
     background-color: lightgray;
 }
-.resume iframe{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    display: block;
+.resume a{
+    text-decoration: none;
 }
 .section-heading1{
     color: black;
