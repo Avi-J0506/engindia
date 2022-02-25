@@ -1,0 +1,140 @@
+@media screen and (min-width: 1250px){
+
+}
+@media screen and (max-width: 1250px) and (min-width: 750px) {
+
+}
+@media screen and (max-width: 750px) {
+    nav .logo{
+        float: none;
+        width: auto;
+        justify-content: center;
+    }
+    nav .links{
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 5rem;
+        bottom: 100%;
+        overflow: hidden;
+        justify-content: space-evenly;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        background-color: rgba(0,0,0,0.8);
+        transition: all 0.5s ease-in-out;
+    }
+    nav .links a{
+        font-size: 1.5rem;
+    }
+    nav :checked ~ .links{
+        bottom: 0;
+    }
+    nav .icon-burger{
+        display: block;
+    }
+    nav :checked ~ .icon-burger .line:nth-child(1){
+        transform: translateY(10px)rotate(225deg);
+    }
+    nav :checked ~ .icon-burger .line:nth-child(3){
+        transform: translateY(-10px)rotate(-225deg);
+    }
+    nav :checked ~ .icon-burger .line:nth-child(2){
+        opacity: 0;
+        }
+        .me .first img{
+            width: 35%;
+            margin-left: 33%;
+        }
+        .me .second h1{
+            font-size: 2.0rem;
+        }
+        .me .btn2{
+            width: 50%;
+            font-size: 9px;
+            border-radius: 10px;
+        }
+        .me2{
+            width:85%;
+            margin: 15px 45px;
+            border-radius: 10px;
+        }
+        section .flex-1 p{
+            font-family: 'Lato', sans-serif;
+            line-height: 1.5rem;
+            color: grey;
+            margin-bottom: 2rem;
+            font-size: 0.8rem; 
+        }
+        section.skills .card-wrapper{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 2rem;
+            grid-row-gap: 3rem;
+        }
+        section.skills .card-wrapper .card{
+            background-color: white;
+            padding: 3rem 0.5rem;
+            position: relative;
+            padding-top: 6rem;
+            text-align: center;
+            width: 100%;
+            height: 90%;
+        }
+        section.skills .card-wrapper .card h2{
+            font-size: 1rem;
+        }
+        section.skills .card-wrapper .card p{
+            font-size: 11px;
+        }
+        section.skills .card-wrapper .card img{
+            left: 57%;
+        }
+        .me{
+            flex-direction: column;
+
+        }
+        .me .second{
+            margin: 2rem 0;
+            text-align: center;
+        }
+        .container{
+            flex-direction: column-reverse;
+        }
+        .section-heading + p{
+            font-size: 15px;
+        }
+        .projects h1{
+            font-size: 1.6rem;
+        }
+        section.projects h4{
+            font-size: 1rem;
+        }
+        .carousel-cell img{
+            width: 100%;
+        }
+        .section-heading1{
+            font-size: 19px;
+        }
+        .section-heading1 + p{
+            font-size: 20px;
+        }
+        .section-heading2{
+            font-size: 25px;
+        }
+        .section-heading2 + p {
+            font-size: 20px;
+        }
+        h3{
+            margin-top: 3rem;
+        }
+        .contact .align a{
+            padding: 0.5rem;
+            font-size: 15px;
+        }
+        footer a{
+            font-size: 10px;
+        }
+}
